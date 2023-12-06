@@ -1,0 +1,75 @@
+{
+  "Usuarios": [
+
+    {
+      "id": 1,
+      "nombre": "Patricio",
+      "apellido": "Yañez",
+      "username": "patoyane",
+      "correo": "pa.yaneza@profesor.duoc.cl",
+      "password": "copiarypegar",
+      "tipo": "Profesor",
+      "activo": true
+    },
+    {
+      "id": 2,
+      "nombre": "Juan",
+      "apellido": "Ramos",
+      "username": "juanramos",
+      "correo": "ju.ramoss@profesor.duoc.cl",
+      "password": "ledoycolor123",
+      "tipo": "Profesor",
+      "activo": true
+    },
+    {
+      "id": 3,
+      "nombre": "Pepe",
+      "apellido": "Tapia",
+      "username": "pepetapia",
+      "correo": "pepetapiaelbicis@duocuc.cl",
+      "password": "mecaienbici123",
+      "tipo": "Estudiante",
+      "activo": true
+    },
+    {
+      "id": 4,
+      "nombre": "Elmer",
+      "apellido": "Luzo",
+      "username": "elmerluzo",
+      "correo": "yelmerluzo@duocuc.cl",
+      "password": "Callampinbombin",
+      "tipo": "Estudiante",
+      "activo": false
+    }
+  ],
+  "Asignaturas": [
+    {
+      "id": 1,
+      "Sigla": "PGY4121",
+      "Nombre": "Programación de aplicaciones móviles",
+      "Secciones": ["001D","002D","003D","001V","002V"],
+      "Profesor": 1
+    },
+    {
+      "id": 2,
+      "Sigla": "PGY2121",
+      "Nombre": "Desarrollo software escritorio",
+      "Secciones": ["001D","002D","003D","004D","001V","002V"],
+      "Profesor": 1
+    },
+    {
+      "id": 3,
+      "Sigla": "CSY41111",
+      "Nombre": "Calidad de Software",
+      "Secciones": ["001D","002D","003D","001V","002V"],
+      "Profesor": 2
+    },
+    {
+      "id": 4,
+      "Sigla": "PRY2111",
+      "Nombre": "Diseño de Prototipos",
+      "Secciones": ["001D","002D","003D","004D","001V","002V"],
+      "Profesor": 2
+    }
+  ]
+}
